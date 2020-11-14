@@ -1,0 +1,338 @@
+---
+layout: default
+title: Practical Machine Learning with TensorFlow 2.0
+---
+<div class="blurb">
+	<h1>Practical Machine Learning with TensorFlow 2.0</h1>
+	<p>
+	Welcome to <a href='https://swayam.gov.in/nd1_noc19_cs81/'>Practical Machine Learning with TensorFlow 2.0</a> MOOC. 
+	As the name suggests we will mainly focus on practical aspects of ML that involves writing code in Python with 
+	TensorFlow 2.0 API.  In every session, we will review the concept from theory point of view and then jump straight 
+	into implementation.  We will be using <a href='http://colab.research.google.com'>Google Colab</a> as a platform 
+	for coding these models.  We will mainly cover material from the following page: 
+	<a href='https://www.tensorflow.org/beta'>https://www.tensorflow.org/beta</a></p>
+
+	<p>I would strongly advise students to run the code and experience how the code works.  Once you get the basic idea
+	of the concept and its implementation, you can spend some time looking at the details of each function from 
+	<a href='https://www.tensorflow.org/versions/r2.0/api_docs/python/tf'>TF RC 2.0 API</a>.</p>
+
+	<p>We will learn how to use tf.Keras and tf.Estimator APIs for building models.  We will also learn to use 
+	tf.Dataset API for building input pipelines for bringing data to ML models.  Later in the course, we will 
+	learn how to build customized ML models and train them in distributed fashion.</p>
+
+	<p>Wish you a great journey of learning TensorFlow with us!</p>
+	
+	<table border="1" width="80%">
+	<tr bgcolor='#99c9ff'>
+		<th>Lecture</th>
+		<th>Title</th>
+		<th>Handout/Colabs</th>
+	</tr>
+	<tr>
+		<td> 1 </td>
+		<td> Introduction to TensorFlow </td>
+		<td> 
+		<ul>
+		     <li>
+		     	     <a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/HelloWorld.ipynb'>Hello World colab</a>, 
+		     </li>
+		     <li>
+			     <a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/session_1_beginner.ipynb'>TF For Beginner colab</a>, 
+		     </li>
+		     <li>
+			     <a href='https://tfindiamooc.github.io/blog/2019/08/31/TF-Intro'>Handout</a> </td>
+		     </li>
+		</ul>
+	</tr>
+	<tr>
+		<td colspan=3>Machine Learning - Overview 
+			[<a href='https://tfindiamooc.github.io/blog/2019/08/31/Machine-Learning-Review'>Handout</a>]</td>
+	</tr>
+	<tr>
+		<td> 2 </td>
+		<td> Machine Learning Refresher </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td> 3 </td>
+		<td> Steps in Machine Learning Process </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td> 4 </td>
+		<td> Loss Functions in Machine Learning </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td> 5 </td>
+		<td> Gradient Descent </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td> 6 </td>
+		<td> Gradient Descent Variations </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td> 7 </td>
+		<td> Model Selection and Evaluation </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td colspan=3><a href='https://playground.tensorflow.org'>Neural Network Playground</a></td>
+	</tr>
+	<tr>
+		<td> 8 </td>
+		<td> Machine Learning Visualization </td>
+		<td>  </td>
+	</tr>
+		
+	<tr>
+		<td colspan=3>Deep Learning Review </td>
+	</tr>
+		
+	<tr>
+		<td> 9 </td>
+		<td>  Deep Learning Refresher </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td> 10 </td>
+		<td> Introduction to Tensor </td>
+		<td> <a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/MathematicalFoundationsOfDL.ipynb'>Colab</a> </td>
+	</tr>
+	<tr>
+		<td> 11 </td>
+		<td> Mathematical Foundations of Deep Learning - Cntd </td>
+		<td> <a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/MathematicalFoundationsOfDL.ipynb'>Colab</a> </td>
+	</tr>
+	<tr>
+		<td colspan=3>Data Handling in TensorFlow 2.0 </td>
+	</tr>
+	<tr>
+		<td> 12 (A/B/C)</td>
+		<td> Building Data Pipelines for Tensorflow </td>
+		<td> 
+		    <ul>
+	             <li>
+		       <a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/data.ipynb'>tf.Data API - colab</a> |
+	             </li>
+		     <li>
+		       <a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/csv.ipynb'>Load data from CSV - colab</a> |
+	             </li>
+		     <li> 
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/numpy.ipynb'>Load data from Numpy - colab</a> |
+		     </li>
+		     <li>
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/from_pandas.ipynb'>Load data from Pandas - colab</a> |
+		     </li>
+		     <li>
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/images.ipynb'>Data Pipelines for Images - colab</a>
+		     </li>
+		     </ul>			    
+		</td>
+	</tr>
+	<tr>
+		<td> 13 </td>
+		<td> Text Processing with Tensorflow </td>
+		<td> 
+		    <ul>
+		     <li> 
+		     	<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/text.ipynb'>Data Pipeline for Text - colab</a>	|
+		     </li>   
+		     <li>
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/unicode.ipynb'>Handling unicode characters - colab</a>	|
+		     </li>
+		     <li>
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/tf_text.ipynb'>Using TF.Text library - colab</a>	
+		     </li>
+		     </ul>
+		</td>
+	</tr>
+        <tr>
+		<td colspan=3>Building basic models with TF </td>
+	</tr>
+        <tr>
+		<td> 14 </td>
+		<td> Classify Images </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb'> Colab </a>
+		</td>
+	</tr>
+       
+        <tr>
+		<td> 15 </td>
+		<td> Regression </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb'> Colab </a>
+		</td>
+	</tr>
+
+        <tr>
+		<td> 16 </td>
+		<td> Classify Structured Data </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/structured_data/feature_columns.ipynb'> Colab </a>
+		</td>
+	</tr>
+
+         <tr>
+		<td> 17 </td>
+		<td> Text Classification </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/text_classification_with_hub.ipynb'> Colab </a>
+		</td>
+	</tr>
+
+         <tr>
+		<td> 18 </td>
+		<td> Underfitting and Overfitting </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/overfit_and_underfit.ipynb?authuser=1'> Colab </a>
+		</td>
+	</tr>
+
+        <tr>
+		<td> 19 </td>
+		<td> Save and Restore Models </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+        <tr>
+		<td colspan=3>Image models with TF </td>
+	</tr>
+
+	 <tr>
+		<td> 20 </td>
+		<td> CNNs-Part 1 </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/CNNs_Part1.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 21 </td>
+		<td> CNNs-Part 2 </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/CNNs_Part1.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 22 </td>
+		<td> Transfer learning with pretrained CNNs </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 23 </td>
+		<td> Transfer learning with TF hub </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning_with_hub.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 24 </td>
+		<td> Image classification and visualization </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/image_classification_and_visualization.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 24 </td>
+		<td> Image classification and visualization </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/image_classification_and_visualization.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td colspan=3>TF Estimator APIs</td>
+	</tr>
+
+        <tr>
+		<td> 25 </td>
+		<td> Estimator API </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/estimator/premade.ipynb'> 
+				Pre-made Estimator Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 26 </td>
+		<td> Logistic Regression </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/estimator/linear.ipynb'> Logistic Regression Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 27 </td>
+		<td> Boosted Trees </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/estimator/boosted_trees.ipynb'> Boosted Trees Colab </a>
+		</td>
+        </tr>
+
+        <tr>
+		<td colspan=3>Sequence Models with TF</td>
+	</tr>
+
+	<tr>
+		<td> 28 </td>
+		<td> Introduction to Word Embedding </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/text/word_embeddings.ipynb'> Word Embedding Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 29 </td>
+		<td> Recurrent Neural Networks (Part 1) </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tfindiamooc/tfindiamooc.github.io/blob/master/colabs/Understanding_recurrent_neural_networks.ipynb'> Colab</a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 30 </td>
+		<td> Recurrent Neural Networks (Part 2) </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/text/text_classification_rnn.ipynb'> Text Classification Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 31 </td>
+		<td> Time Series Forecasting with RNNs </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	<tr>
+		<td> 32 </td>
+		<td> Text Generation with RNNs </td>
+		<td> 
+			<a href='https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/text/text_generation.ipynb'> Colab </a>
+		</td>
+        </tr>
+
+	</table>
+	<p>
+	<h2> Reference Material </h2>
+	<ul> 
+		<li> Machine Learning by Tom Mitchell</li>
+		<li> Data Mining by David Hand <i>et. al.</i> </li>
+		<li> <a href='https://www.tensorflow.org/beta'>TensorFlow Documentation </a></li>
+	</ul>
+	
+	</p>
+</div><!-- /.blurb -->
